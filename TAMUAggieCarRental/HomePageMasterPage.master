@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomePageMasterPage.master.cs" Inherits="HomePageMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="MasterPageStyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="page">
+        <div id="header"> 
+        <table>
+           <tr>
+              <td rowspan="4"><img src="images/header.jpg" alt="header image" style="width:252px;height:168px;" /></td>
+              <td><h1>Aggie Car Rental</h1></td>
+          </tr>
+          
+          <tr>
+             <td>Best Car Rental Service Company in the World!</td>
+          </tr>
+         <tr>
+             <td>We care about cumstomers experience!</td>
+         </tr>
+        <tr>
+            <td>
+            <center>
+            <a href="mailto:zhoumuqing@tamu.edu"><img src="images/icons/mail.png" width="40pt" /></a>
+            <a href="https://www.facebook.com/aggiecarrental/?fref=ts"><img src="images/icons/facebook.png" width="40pt" /></a>
+            <a href="#"><img src="images/icons/linkedin.png" width="40pt" /></a>
+            </center>
+            </td>
+       </tr>
+       </table>
+        </div>
+
+       <div id="nav">
+                <ul>
+                    <center>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">RESERVATION</a></li>
+                    <li><a href="#">VEHICLE</a>
+                        <ul>
+                           <li><a href="#">Prestiges</a></li>
+                           <li><a href="#">Convertibles</a></li>
+                           <li><a href="#">Hybrid/Electric</a></li>
+                           <li><a href="#">SUV</a></li>                          
+                        </ul>
+                    </li>
+                    <li><a href="#">About US</a></li>
+                    <li><a href="#">Shopping Cart</a></li>
+                    </center>
+                </ul>  
+        </div>
+
+
+
+        <div id="aside"> 
+            <ul>
+            <center>
+            <li><a href="#">PRESTIGES</a></li>
+            <li><a href="#">CONVERTIBLES</a></li>
+            <li><a href="#">HYBRID/ELECTRICS</a></li>
+            <li><a href="#">SUV</a></li>    
+            </center>
+            </ul>
+        </div>
+
+        <div id="section"> 
+        <asp:contentplaceholder id="contentplaceholder1" runat="server">
+        
+        </asp:contentplaceholder>
+        </div>
+
+        <div id="footer">
+                       <ul>
+                           <li><a href="http://www.tamu.edu/">TAMU</a></li>
+                           <li><a href="http://mays.tamu.edu/">Mays School</a></li>
+                           <li><a href="http://mays.tamu.edu/department-of-information-and-operations-management/">INFO Dept</a></li>
+                           <li><a href="http://ecampus.tamu.edu/">eCampus</a></li>
+                        </ul>
+        </div>
+    </div>
+    <div>
+        
+    </div>
+
+    </form>
+</body>
+</html>
