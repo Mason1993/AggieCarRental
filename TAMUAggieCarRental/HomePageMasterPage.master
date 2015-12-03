@@ -15,17 +15,17 @@
         <div id="header"> 
         <table>
            <tr>
-              <td rowspan="4"><img src="images/header.jpg" alt="header image" style="width:252px;height:168px;" /></td>
+              <td rowspan="4"><img src="images/icons/acrLogo.jpg" alt="ACR Logo" style="width:200px;height:150px;" /></td>
               <td><h1>Aggie Car Rental</h1></td>
           </tr>
-          
+
           <tr>
              <td>Best Car Rental Service Company in the World!</td>
           </tr>
          <tr>
              <td>We care about cumstomers experience!</td>
          </tr>
-        <tr>
+       <%-- <tr>
             <td>
             <center>
             <a href="mailto:zhoumuqing@tamu.edu"><img src="images/icons/mail.png" width="40pt" /></a>
@@ -33,7 +33,7 @@
             <a href="#"><img src="images/icons/linkedin.png" width="40pt" /></a>
             </center>
             </td>
-       </tr>
+       </tr>--%>
        </table>
         </div>
 
@@ -42,7 +42,7 @@
                     <center>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">RESERVATION</a></li>
-                    <li><a href="#">CATLOG</a>
+                    <li><a href="#catalog">CATALOG</a>
                         <ul>
                            <li><a href="#">Prestiges</a></li>
                            <li><a href="#">Convertibles</a></li>
@@ -58,7 +58,7 @@
 
 
 
-        <div id="aside"> 
+<%--        <div id="aside"> 
             <ul>
             <center>
             <li><a href="#">PRESTIGES</a></li>
@@ -67,7 +67,7 @@
             <li><a href="#">SUV</a></li>    
             </center>
             </ul>
-        </div>
+        </div>--%>
 
         <div id="section"> 
         <asp:contentplaceholder id="contentplaceholder1" runat="server">

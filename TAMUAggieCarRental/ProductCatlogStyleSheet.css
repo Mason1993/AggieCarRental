@@ -1,0 +1,13 @@
+﻿* margin
+{
+   0 0;
+}
+
+
+#accordion {
+    max-width: 970px;
+    text-align: left;
+    margin: 0 auto;
+    background-color: #146195;
+}
+
