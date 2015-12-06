@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomePageMasterPage.master.cs" Inherits="HomePageMasterPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="test.aspx.cs" Inherits="test" %>
 
 <!DOCTYPE html>
 
@@ -6,21 +6,18 @@
 <head runat="server">
     <title></title>
     <link href="MasterPageStyleSheet.css" rel="stylesheet" />
-    <asp:ContentPlaceHolder id="head" runat="server">
-    </asp:ContentPlaceHolder>
 </head>
 <body>
-
-<div id="page">
+    <form id="form1" runat="server">
+    <div id="page">
+        <div id="section1">
 
         <div id="header"> 
         <table>
            <tr>
-              <td rowspan="5"><img src="images/icons/acrLogo.jpg" alt="ACR Logo" style="width:70px;height:70px;" /></td>              
+              <td rowspan="4"><img src="images/icons/acrLogo.jpg" alt="ACR Logo" style="width:200px;height:150px;" /></td>
+              <td><h3>Aggie Car Rental</h3></td>
           </tr>
-            <tr>
-                <td><h3>Aggie Car Rental</h3></td>
-            </tr>
           <tr>
              <td>Best Car Rental Service Company in the World!</td>
           </tr>
@@ -41,7 +38,7 @@
                     <center>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">RESERVATION</a></li>
-                    <li><a href="#contentPart2">CATALOG</a>
+                    <li><a href="#catalog">CATALOG</a>
                         <ul>
                            <li><a href="#">Prestiges</a></li>
                            <li><a href="#">Convertibles</a></li>
@@ -67,11 +64,6 @@
             </center>
             </ul>
         </div>--%>
-
-        <div id="section"> 
-        <asp:contentplaceholder id="contentplaceholder1" runat="server">
-        
-        </asp:contentplaceholder>
         </div>
 
         <div id="footer">
@@ -82,9 +74,9 @@
                            <li><a href="http://ecampus.tamu.edu/">eCampus</a></li>
                         </ul>
         </div>
-    </div>
     <div>
         
     </div>
+    </form>
 </body>
 </html>

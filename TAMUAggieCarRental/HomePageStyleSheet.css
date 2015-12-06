@@ -1,0 +1,10 @@
+﻿#contentPart1 {
+    width: 1366px;
+    height: 768px;
+    /*color: white;*/
+    background-image: url('images/hbg1.jpg');
+}
+
+#contentPart2 {
+    background-color: lightgray;
+}

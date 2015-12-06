@@ -6,7 +6,7 @@
 
 #page
 {
-    max-width:960px;
+    max-width:1366px;
     text-align: left;
     margin: 0 auto;      /*margin is the distance between components*/
     /*height:500px;*/
@@ -14,8 +14,8 @@
 
 #header
 {
-    height: 175px;
-    background-color: white;
+    height: 85px;
+    background-color: lightgray;
     /*background-color: #146195;*/
 }
 
@@ -25,9 +25,9 @@
     /*background-color: rgba(32,119,182,0.2);
     margin: 20px 25px;
     border:dashed;*/
-    max-width: 960px;
+    max-width: 1366px;
     height: 37px;
-    border-width:2px;
+    /*border-width:2px;*/
     margin: 0 auto;
     background-color: #0d3d61;
 
@@ -37,14 +37,14 @@
     {
         list-style-type: none;
         position:relative;
-        max-width: 960px;
+        max-width: 1366px;
     }
 
     #nav ul ul
     {
         display: none;
         position:absolute;
-        top: 38px;      
+        top: 37px;      
     }
 
         #nav ul li:hover > ul    /*when hovering ul, do the following to the inner ul*/
@@ -135,26 +135,17 @@
 
 #section
 {
-    width: 960px;
-    color: white;
-    background-color: lightgray;
-    /*background: url("http://cdn.mntm.me/66/5c/73/Tip-Sheet-Road-Trips-665c733326544377a6335e75b5030d5c.jpg");*/
 }
 
-    #section:hover
-    {
-        /*background: url("http://www.exploreaustralia.net.au/blog/wp-content/uploads/2012/12/TQ_Capt-Cook-Hwy.jpg");*/
-        color: white;
-    }
 
-#content 
+/*#content 
 {
     padding: 0 10px;
-}
+}*/
 #footer
 {
 
-    width: 960px;
+    width: 1366px;
     height: 37px;
     border-width:2px;
     /*margin: 0 auto;*/
@@ -166,7 +157,7 @@
     {
         list-style-type: none;
         position:relative;
-        max-width: 960px;
+        max-width: 1366px;
         margin: 0;
     }
 
@@ -196,7 +187,7 @@
     }
 
 #footer {
-    max-width: 960px;
+    max-width: 1366px;
 }
 
 
