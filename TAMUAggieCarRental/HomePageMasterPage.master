@@ -11,19 +11,14 @@
 </head>
 <body>
 
-<div id="page">
-
-        <div id="header"> 
+<div id="header"> 
         <table>
            <tr>
-              <td rowspan="5"><img src="images/icons/acrLogo.jpg" alt="ACR Logo" style="width:70px;height:70px;" /></td>              
+              <td rowspan="5"><img src="images/icons/acrLogo.jpg" alt="ACR Logo" style="width:70px;height:70px;" /></td> 
+               <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>              
+               <td><h1>Aggie Car Rental</h1></td>
           </tr>
-            <tr>
-                <td><h3>Aggie Car Rental</h3></td>
-            </tr>
-          <tr>
-             <td>Best Car Rental Service Company in the World!</td>
-          </tr>
+
        <%-- <tr>
             <td>
             <center>
@@ -74,17 +69,16 @@
         </asp:contentplaceholder>
         </div>
 
-        <div id="footer">
+<%--        <div id="footer">
                        <ul>
                            <li><a href="http://www.tamu.edu/">TAMU</a></li>
                            <li><a href="http://mays.tamu.edu/">Mays School</a></li>
                            <li><a href="http://mays.tamu.edu/department-of-information-and-operations-management/">INFO Dept</a></li>
                            <li><a href="http://ecampus.tamu.edu/">eCampus</a></li>
                         </ul>
-        </div>
-    </div>
-    <div>
-        
-    </div>
+        </div>--%>
+    <footer>
+		Copyright &copy; Mason and Jorge
+	</footer>
 </body>
 </html>
