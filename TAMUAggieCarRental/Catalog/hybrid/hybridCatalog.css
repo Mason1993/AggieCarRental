@@ -1,0 +1,167 @@
+﻿* margin
+{
+   0 0;
+}
+
+
+#page
+{
+    max-width:960px;
+    text-align: center;
+    margin: 0 auto;      /*margin is the distance between components*/
+    /*height:500px;*/
+}
+
+#header
+{
+    height: 175px;
+    background-color: white;
+    /*background-color: #146195;*/
+}
+
+
+#nav
+{
+    /*background-color: rgba(32,119,182,0.2);
+    margin: 20px 25px;
+    border:dashed;*/
+    max-width: 960px;
+    height: 37px;
+    border-width:2px;
+    margin: 0 auto;
+    background-color: #0d3d61;
+
+}
+
+    #nav ul
+    {
+        list-style-type: none;
+        position:relative;
+        max-width: 960px;
+    }
+
+    #nav ul ul
+    {
+        display: none;
+        position:absolute;
+        top: 38px;      
+    }
+
+        #nav ul li:hover > ul    /*when hovering ul, do the following to the inner ul*/
+        {
+            display: block;
+            padding:0px;  /*make the hovering subtopic bar to the left*/
+        }
+
+        #nav ul ul li
+        {
+            float: none;
+        }
+
+        #nav ul li a
+        {
+            background-color: #0d3d61;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: Arial;
+            padding: 10px 40px;
+            display: block;   /*this can help fix the overlap problem in nav bar*/
+            width:100px;
+            text-align:center;
+        }
+
+        #nav ul li
+        {
+            float: left;
+        }
+
+    #nav a:hover
+    {
+        background-color: orange;
+        color:white;
+        /*font-size:105%;*/
+    }
+
+    #nav > ul::after  /*insert text after the content of each nav >  ul*/
+    {
+        content: "";
+        display: block;
+        clear: both;
+
+    }
+
+
+
+#content {
+color: black;
+}
+/*{
+    width: 960px;
+    color: black;
+    background-color: lightgray;
+    background: url("http://cdn.mntm.me/66/5c/73/Tip-Sheet-Road-Trips-665c733326544377a6335e75b5030d5c.jpg");
+}*/
+
+    /*#section:hover
+    {
+        background: url("http://www.exploreaustralia.net.au/blog/wp-content/uploads/2012/12/TQ_Capt-Cook-Hwy.jpg");
+        color: white;
+    }*/
+
+#content
+{
+   padding-left: 120px;
+   padding-top: 15px;
+   margin: 16px;
+}
+img.pic {
+padding-left: 100px;
+}
+#footer
+{
+
+    width: 960px;
+    height: 37px;
+    border-width:2px;
+    /*margin: 0 auto;*/
+    background-color: #0d3d61;
+    float:left;
+}
+
+    #footer ul
+    {
+        list-style-type: none;
+        position:relative;
+        max-width: 960px;
+        margin: 0;
+    }
+
+        #footer ul li
+        {
+            float: left;
+        }
+
+        #footer ul li a
+        {
+            background-color: #0d3d61;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: Arial;
+            padding: 10px 70px;
+            display: block;   /*this can help fix the overlap problem in nav bar*/
+            /*width:100px;*/
+            text-align:center;
+        }
+
+    #footer a:hover
+    {
+        background-color: orange;
+        color:white;
+        /*font-size:105%;*/
+    }
+
+#footer {
+    max-width: 960px;
+}

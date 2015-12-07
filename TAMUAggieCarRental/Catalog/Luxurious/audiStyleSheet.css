@@ -1,0 +1,11 @@
+﻿#picture {
+float: left;
+padding-top: 50px;
+}
+#content {
+float: right;
+width: 400px;
+font-size: 15px;
+font-family: Arial;
+}
+
